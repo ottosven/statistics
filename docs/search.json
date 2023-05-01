@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics Teaching Material",
+    "section": "",
+    "text": "Welcome\nOn this website you can find animated and interactive teaching materials for statistics and econometrics courses\n\nA repository containing teaching materials for econometrics (OLS sampling distribution, heteroskedasticity, LLN, CLT, confidence intervals): LINK\nA shiny app example with California STR data: LINK\nThe Econometrics with R open book by Christoph Hanck et al. contains an interactive html script to study the OLS estimator: LINK. The exercise sections contain interactive R problems using the datacamp widget: LINK\nAnother datacamp exercise website: LINK. source."
+  },
+  {
+    "objectID": "shiny.html#a-shiny-app-example",
+    "href": "shiny.html#a-shiny-app-example",
+    "title": "\n1  Shiny Apps\n",
+    "section": "\n1.1 A shiny app example:",
+    "text": "1.1 A shiny app example:\nThe limiting distributions of a t-statistic \\(Z\\) under \\(H_0\\) and \\(H_1\\) can be investigated in the following dynamic plot:\n\n\n\n\n\n\nSource: link\nHost a shiny app on github: link"
+  },
+  {
+    "objectID": "datacamp.html",
+    "href": "datacamp.html",
+    "title": "2  Datacamp Examples",
+    "section": "",
+    "text": "Experimental page for Datacamp tasks\n\n\nClick Me!\n\n\n<code data-type=\"pre-exercise-code\">\n    # This will get executed each time the exercise gets initialized\n    b = 6\n</code>\n<code data-type=\"sample-code\">\n    # Create a variable a, equal to 5\n\n\n    # Print out a\n\n\n</code>\n<code data-type=\"solution\">\n    # Create a variable a, equal to 5\n    a <- 5\n\n    # Print out a\n    print(a)\n</code>\n<code data-type=\"sct\">\n    test_object(\"a\")\n    test_function(\"print\")\n    success_msg(\"Great job!\")\n</code>\n<div data-type=\"hint\">Use the assignment operator (<code><-</code>) to create the variable <code>a</code>.</div>\n\n\n# no pec  # Calculate 3 + 4 3 + 4 # Calculate 6 + 12   # Calculate 3 + 4 3 + 4 # Calculate 6 + 12 6 + 12   test_output_contains(\"18\", incorrect_msg = \"Make sure to add 6 + 12 on a new line. Do not start the line with a #, otherwise your R code is not executed!\") success_msg(\"Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!\")"
+  }
+]
