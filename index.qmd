@@ -1,0 +1,13 @@
+# Welcome {-}
+
+On this website you can find animated and interactive teaching materials for statistics and econometrics courses
+
+
+
+* A repository containing teaching materials for econometrics (OLS sampling distribution, heteroskedasticity, LLN, CLT, confidence intervals): [LINK](https://github.com/simonheb/metrics1-public)
+
+* A shiny app example with California STR data: [LINK](https://altaf.shinyapps.io/linear-regression/)
+
+* The Econometrics with R open book by Christoph Hanck et al. contains an interactive html script to study the OLS estimator: [LINK](https://www.econometrics-with-r.org/4.2-estimating-the-coefficients-of-the-linear-regression-model.html). The exercise sections contain interactive R problems using the datacamp widget: [LINK](https://www.econometrics-with-r.org/4.6-exercises-4.html)
+
+* Another datacamp exercise website: [LINK](https://geomoer.github.io/moer-base-r/unit02/unit02-08_DataCampEx.html). [source](https://github.com/GeoMOER/moer-base-r/tree/master/docs/units/_unit02).

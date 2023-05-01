@@ -1,0 +1,18 @@
+# Shiny Apps
+
+## A shiny app example:
+
+The limiting distributions of a t-statistic $Z$ under $H_0$ and $H_1$ can be investigated in the following dynamic plot:
+
+::: {.content-visible when-format="html"}
+```{r, echo=FALSE}
+if(!knitr:::is_latex_output()){
+  knitr::include_app("https://dliebl.shinyapps.io/Gauss-Test-Distr/",
+  height = "900px")
+}
+```
+:::
+
+Source: [link](https://github.com/lidom/RM_ES_Script/blob/master/Shiny_Apps/Gauss-Test-Distr/app.R)
+
+Host a shiny app on github: [link](https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/)

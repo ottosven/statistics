@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: Statistics Teaching Material
+  author: Sven Otto
+  sidebar: false
+  navbar: false
+  date: today
+  date-format: "MMMM D, YYYY"
+  search: true
+  page-navigation: true
+  open-graph: true
+  chapters:
+    - index.qmd
+    - shiny.qmd
+    - datacamp.qmd
+
+format:
+  html:
+    theme:
+      light: [default, theme.scss]
+      dark: [default, darkly, theme.scss]
+    linkcolor: green
+    monofont: Fira Mono
+    number-sections: true
+    code-link: true
+    reference-links: true
+    reference-location: margin
+    knitr:
+      opts_chunk:
+        fig.align: center
+    fig-align: center
